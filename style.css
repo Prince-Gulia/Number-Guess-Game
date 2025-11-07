@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #00ffea;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-container , form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container{
+    min-height: 70vh;
+}
+
+input:hover{
+    border-radius: 20px;
+    transition: all 1.9s;
+    color:rgb(207, 122, 122) ;
+    background-color: rgb(167, 200, 220);
+    height: 25px;
+}
+
+input{
+    margin: 15px;
+    color: blueviolet;
+}
+
+form{
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px #435dbd;
+}

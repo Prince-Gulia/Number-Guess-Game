@@ -17,6 +17,9 @@ submit.addEventListener( 'click' , ( e ) => {
 
 function validateGuess (guess){
     // To check if the guess is in range and valid or not
+    if (isNaN(guess)){
+        return
+    }
 }
 
 function checkGuess (guess){

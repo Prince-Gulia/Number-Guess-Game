@@ -71,10 +71,11 @@ function displayDetails (guess){
 function endGame (){
     // To end the game if user wants 
 
-    userInput = ''
-    userInput.setAttribute('disabled','')
+    userInput.value = ''
+    userInput.setAttribute('disabled',true)
     p.classList.add("button")
     p.innerHTML = `<h2 id="newGame"> Start new Game</h2>`
+    startOver.appendChild(p)
     flag = false
     newGame()
 }

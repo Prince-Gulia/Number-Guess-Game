@@ -89,6 +89,7 @@ function newGame(){
         previous = []
         numberOfGuessesLeft = 1
         guessSlot.innerHTML = ''
+        lowOrHigh.innerHTML = ''
         guessRemaining.innerHTML = `${11 - numberOfGuessesLeft}`
         userInput.removeAttribute('disabled')
         startOver.removeChild(p)

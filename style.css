@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #00ffea;
+    color: #d6aa8d;
     font-family: 'Orbitron', sans-serif;
 }
 
 body{
-    background-color: black;
+    background-color:  #FFFFF0;
 }
 
 h1{
@@ -28,15 +28,17 @@ h1{
 
 input:hover{
     border-radius: 20px;
-    transition: all 1.9s;
-    color:rgb(207, 122, 122) ;
-    background-color: rgb(167, 200, 220);
+    transition: all 0.5s;
+    /* padding: 5px; */
+    color:rgb(60, 14, 187) ;
+    background-color: #d8bba9;
     height: 25px;
 }
 
 input{
     margin: 15px;
     color: blueviolet;
+    padding: 5px;
 }
 
 form{
@@ -45,5 +47,9 @@ form{
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 30px #435dbd;
+    box-shadow: 0 0 30px #96634e;
+}
+
+.resultParas {
+    text-align: center;
 }
